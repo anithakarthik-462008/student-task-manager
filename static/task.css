@@ -1,0 +1,34 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 100px;
+        background-color:azure;
+    }
+    h1{
+        margin-bottom:20px;
+        margin-top:5px;
+    }
+
+    input {
+        padding:10px;
+        width: 250px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        display:block;
+        margin:30px;
+
+    }
+
+    button {
+        padding:10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin:10px;
+        background-color: lightgray;
+
+    }
+    button:hover{
+        color:cadetblue;
+    }

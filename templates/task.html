@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Task</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='task.css') }}">
+</head>
+<body >
+    <center>
+    <h1>Add Task</h1>
+    </center>
+
+    <center>
+    <form method="POST" action="/task">
+        <input type="text" name="title" placeholder="Enter task" required>
+        <input type="time" name="time">
+        <select name="status">
+           <option>Pending</option>
+           <option>Completed</option>
+        </select>
+        <br><br>
+        <button type="submit">Save Task</button>
+    </form>
+    </center>
+
+</body>
+</html>

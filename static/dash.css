@@ -1,0 +1,41 @@
+body{
+    text-align:center;
+    background-color:azure;
+}
+h1{
+    color:brown;
+    background-color:lightcyan;
+    margin-top:0%;
+}
+h2{
+    color:black;
+    padding:10px;
+    margin:10px;
+}
+button{
+    padding:10px;
+    margin:20px;
+    border-color:black;
+    border-width:2px;
+    border-style:solid;
+    border-radius:10px;
+    cursor: pointer;
+    display:block;
+    margin-left:47%;
+    background-color:lightgray;
+}
+h3{
+    margin-top:20px;
+    padding:10px;
+}
+p{
+    margin:5px;
+    border-color:black;
+    border-style:solid;
+    display:inline-block;
+}
+
+.logout{
+    padding-top:10px;
+    margin-left:48%;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>student task manager</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+<body>
+    <h1>student task manager</h1>
+    <h2>login</h2>
+    <form method="POST" action="/">
+        <label>username:</label>
+        <input type="text" name="username" placeholder="enter username" required><br><br>
+        <label>password:</label>
+        <input type="password" name="password" placeholder="enter password" required><br><br>
+        <button type="submit">Login</button>
+    </form>
+
+    
+</body>
+</html>

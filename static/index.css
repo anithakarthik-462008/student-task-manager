@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(travel.avif);
+    background-size:100%;
+    text-align: center;
+}
+
+h1 {
+    color:darkmagenta
+}
+
+h2 {
+    color:indianred;
+}
+
+form {
+    width: 300px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    font-size: x-large;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color:lightblue;
+    color:black;
+    margin-top:10px;
+    
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color:cornsilk;
+    color:black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top:5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+input:hover{
+    background-color:blanchedalmond;
+}

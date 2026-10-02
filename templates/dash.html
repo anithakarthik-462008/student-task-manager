@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='dash.css') }}">
+</head>
+
+<body>
+    <h1>Dashboard</h1>
+    <h2>Welcome! To Cheers</h2>
+    <a href="/task">
+        <button type="button">Add Task</button>
+    </a>
+    <select>
+        <option>Learn English</option>
+        <option>Learn Python</option>
+        <option>Learn JavaScript</option>
+        <option>Learn HTML</option>
+    </select>
+    <h3>My Tasks</h3>
+    {% for t in tasks %}
+  <p>{{ t.title }} - {{ t.time }} - {{ t.status }}</p>
+{% endfor %}
+    <a href="/">
+        <button class="logout" type="button">Logout</button>
+    </a>
+<div>
+    <img src="{{ url_for('static', filename='task2.png') }}"  width="200" height="200">
+</div>
+</body>
+</html>
+
